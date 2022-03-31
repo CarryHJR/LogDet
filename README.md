@@ -12,6 +12,14 @@
 
 ## LogDetMini数据集
 下载地址: https://pan.baidu.com/s/1fg9IaPh061iD7w5aiIX3qg?pwd=m3gm
+```
+.
+├── class_names.txt
+├── images
+├── instances_train2017.json
+└── instances_val2017.json
+
+```
 简单介绍: 从openbrand数据模拟复赛分布，随机选取了50类，每类20张作为train, 20张作为val，train和val之间数据不重复
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h0td1awfjyj20u00ur0yy.jpg)
