@@ -9,6 +9,8 @@
 未来工作计划:
 * 在赛事数据集发布后(4.11)，基于正式数据集，进行eda和baseline实验 
 
+欢迎在issue区讨论
+
 
 ## LogDetMini数据集
 下载地址: https://pan.baidu.com/s/1fg9IaPh061iD7w5aiIX3qg?pwd=m3gm
