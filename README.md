@@ -35,4 +35,8 @@
 |     r101_3x_flip     | 0.455 |        \        |
 | r101_3x_flip_softnms | 0.457 |        \        |
 |       r101_12x       | 0.452 |       1.5       |
+|       bigsize       | 0.478 |       0.53       |
+|       bigsize+autoaug       | 0.497 |       \       |
+|       bigsize+autoaug+dcn       | 0.509 |       \       |
+|       bigsize+autoaug+dcn+anchor       | 0.516 |       \       |
 
