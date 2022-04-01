@@ -39,4 +39,6 @@
 |       bigsize+autoaug       | 0.497 |       \       |
 |       bigsize+autoaug+dcn       | 0.509 |       \       |
 |       bigsize+autoaug+dcn+anchor       | 0.516 |       \       |
+|       convb bigsize       | 0.547 |       \       |
+|       convb bigsize+autoaug+anchor       | 0.566 |       \       |
 
