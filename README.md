@@ -42,4 +42,6 @@
 |       bigsize+autoaug+dcn+anchor       | 0.516 |       \       |
 |       convb bigsize       | 0.547 |       \       |
 |       convb bigsize+autoaug+anchor       | 0.566 |       \       |
+|       swinb bigsize       | 0.554 |       \       |
+|       swinb bigsize+autoaug+anchor       | 0.578 |       \       |
 
