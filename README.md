@@ -40,8 +40,4 @@
 |       bigsize+autoaug       | 0.497 |       \       |
 |       bigsize+autoaug+dcn       | 0.509 |       \       |
 |       bigsize+autoaug+dcn+anchor       | 0.516 |       \       |
-|       convb bigsize       | 0.547 |       \       |
-|       convb bigsize+autoaug+anchor       | 0.566 |       \       |
-|       swinb bigsize       | 0.554 |       \       |
-|       swinb bigsize+autoaug+anchor       | 0.578 |       \       |
-
+| swinb_3x_800-1400_anchor_bs2x8 | 0.507| 0.97 | 
