@@ -6,9 +6,10 @@
 * 基于LogDetMini进行数据可视化分析 `LogDetMini/eda/eda.ipynb`
 * 基于mmdetection进行baseline实验和基础调参实验
 * 初赛 ContestStage1 的 eda `ContestStage1/eda/logdet-eda.ipynb`
+* 进行baseline实验 
 
 未来工作计划:
-* 进行baseline实验 
+* 继续调优
 
 欢迎在issue区讨论
 
