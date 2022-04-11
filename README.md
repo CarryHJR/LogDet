@@ -1,13 +1,14 @@
 ## 本仓库介绍
 为了备战 [ICME-2022 安全AI挑战者计划第九期：小样本商标检测挑战赛](https://tianchi.aliyun.com/competition/entrance/531948/introduction)，当前工作和未来工作计划:
-当前工作:
+已完成工作:
 
 * 基于开源的openbrand数据集制作了LogDetMini 数据集，基于coco格式，并开源
 * 基于LogDetMini进行数据可视化分析 `LogDetMini/eda/eda.ipynb`
 * 基于mmdetection进行baseline实验和基础调参实验
+* 初赛 ContestStage1 的 eda `ContestStage1/eda/logdet-eda.ipynb`
 
 未来工作计划:
-* 在赛事数据集发布后(4.11)，基于正式数据集，进行eda和baseline实验 
+* 进行baseline实验 
 
 欢迎在issue区讨论
 
