@@ -27,23 +27,13 @@
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h0td1awfjyj20u00ur0yy.jpg)
 
-## LogDetMini 实验
+## 初赛实验
 
-|         方案         |  mAP  | Training time/h |
-| :------------------: | :---: | :-------------: |
-|         r101         | 0.344 |       0.4       |
-|       r101_3x        | 0.447 |        \        |
-|     r101_3x_flip     | 0.455 |        \        |
-| r101_3x_flip_softnms | 0.457 |        \        |
-|       r101_12x       | 0.452 |       1.5       |
-|       swint_3x       | 0.454 |       0.6       |
-|       bigsize       | 0.478 |       0.53       |
-|       bigsize+autoaug       | 0.497 |       \       |
-|       bigsize+autoaug+dcn       | 0.509 |       \       |
-|       bigsize+autoaug+dcn+anchor       | 0.516 |       \       |
-| swinb_3x_800-1400_anchor_bs2x8 | 0.507| 0.97 | 
-| swinb_3x_800-1400_anchor_bs2x8_db| 0.553| 1.6 | 
-| convb_3x_bs2x8_1k| 0.46 | \ |
-|convb_3x_bs2x8_1k_800-1400 | 0.534 | 1.4|
-|swinb_3x | 0.466 | 0.87|
-| swinb_3x_800-1400 | 0.539 | \ |
+为方便实验对比，本地划分了0.2作为 val，见 `ContestStage1/data`
+
+|         方案         |  本地val  |  线上  | Training time/h |
+| :------------------: | :---: | :-------------: | :-------------: |
+|         swinb_3x_bigsize_anchor_bs2x8         | 0.591 | 0.5114 |       1.5      |
+
+
+
