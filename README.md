@@ -12,6 +12,17 @@
 
 欢迎在issue区讨论
 
+## 初赛实验(ContestStage1)
+
+为方便实验对比，本地划分了0.2作为 val，见 `ContestStage1/data`
+
+|         方案         |  本地val  |  线上  | Training time/h |
+| :------------------: | :---: | :-------------: | :-------------: |
+|         swinb_3x_bigsize_anchor_bs2x8         | 0.591 | 0.5114 |       1.5      |
+
+
+
+
 
 ## LogDetMini数据集
 下载地址: https://pan.baidu.com/s/1fg9IaPh061iD7w5aiIX3qg?pwd=m3gm
@@ -28,14 +39,4 @@
 正式赛开始后，感觉和构建的 mini 数据集有一定区别，LogDetMini 移到[这里](https://github.com/CarryHJR/LogDet/tree/master/LogDetMini)
 
 <!-- ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h0td1awfjyj20u00ur0yy.jpg) -->
-
-## 初赛实验
-
-为方便实验对比，本地划分了0.2作为 val，见 `ContestStage1/data`
-
-|         方案         |  本地val  |  线上  | Training time/h |
-| :------------------: | :---: | :-------------: | :-------------: |
-|         swinb_3x_bigsize_anchor_bs2x8         | 0.591 | 0.5114 |       1.5      |
-
-
 
