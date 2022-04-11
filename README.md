@@ -25,7 +25,9 @@
 ```
 简单介绍: 从openbrand数据模拟复赛分布，随机选取了50类，每类20张作为train, 20张作为val，train和val之间数据不重复
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h0td1awfjyj20u00ur0yy.jpg)
+正式赛开始后，感觉和构建的 mini 数据集有一定区别，LogDetMini 移到[这里](https://github.com/CarryHJR/LogDet/tree/master/LogDetMini)
+
+<!-- ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h0td1awfjyj20u00ur0yy.jpg) -->
 
 ## 初赛实验
 
