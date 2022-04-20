@@ -20,6 +20,9 @@
 |         方案         |  本地val  |  线上  | Training time/h |
 | :------------------: | :---: | :-------------: | :-------------: |
 |         swinb_3x_bigsize_anchor_bs2x8         | 0.591 | 0.5114 |       1.5      |
+|         swinb_3x_bigsize_anchor_bs2x8(all)         | \ | 0.54 |       \      |
+|         swinb_3x_bigsize_anchor_bs2x8(all+scale_score)         | \ | 0.58 |       \      |
+|         swinb_3x_bigsize_anchor_bs2x8(all+scale_score+autoaug)         | \ | 0.60 |       \      |
 
 ## 涨点方案(未严谨消融实验)
 
