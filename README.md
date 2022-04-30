@@ -24,6 +24,13 @@
 |         swinb_3x_bigsize_anchor_bs2x8(all+scale_score)         | \ | 0.58 |       \      |
 |         swinb_3x_bigsize_anchor_bs2x8(all+scale_score+autoaug)         | \ | 0.60 |       \      |
 
+
+## 采用的一些处理
+* global context feature : https://github.com/CarryHJR/LogDet/issues/5
+* scale_score : https://github.com/CarryHJR/LogDet/issues/17
+* 训练推理命令 : https://github.com/CarryHJR/LogDet/issues/21
+* 基于json划分本地train val : https://github.com/CarryHJR/LogDet/issues/10
+
 ## 涨点方案(未严谨消融实验)
 
 |         方案         |  本地val  |  线上  |
